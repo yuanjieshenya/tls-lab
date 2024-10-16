@@ -1,0 +1,29 @@
+2024-10-16 18:32:22.867 [info] 
+
+
+
+
+2024-10-16 18:32:22.876 [info] Extension host agent started.
+2024-10-16 18:32:22.937 [info] [127.0.0.1][0b90231c][ManagementConnection] New connection established.
+2024-10-16 18:32:23.235 [info] [127.0.0.1][ea48a730][ExtensionHostConnection] New connection established.
+2024-10-16 18:32:23.238 [info] [127.0.0.1][ea48a730][ExtensionHostConnection] <489> Launched Extension Host Process.
+2024-10-16 18:32:31.385 [info] Getting Manifest... ms-ceintl.vscode-language-pack-zh-hans
+2024-10-16 18:32:31.385 [info] Getting Manifest... ms-ceintl.vscode-language-pack-zh-hans
+2024-10-16 18:32:31.469 [info] Installing extension: ms-ceintl.vscode-language-pack-zh-hans {"productVersion":{"version":"1.94.2","date":"2024-10-09T16:08:44.566Z"},"pinned":false,"operation":3,"isApplicationScoped":true,"donotVerifySignature":false,"context":{"clientTargetPlatform":"win32-x64"},"installOnlyNewlyAddedFromExtensionPack":true,"profileLocation":{"$mid":1,"fsPath":"/home/zyh/.vscode-server/extensions/extensions.json","external":"file:///home/zyh/.vscode-server/extensions/extensions.json","path":"/home/zyh/.vscode-server/extensions/extensions.json","scheme":"file"}}
+2024-10-16 18:32:31.486 [info] Extension is already requested to install ms-ceintl.vscode-language-pack-zh-hans file:///home/zyh/.vscode-server/extensions/extensions.json
+2024-10-16 18:32:35.273 [info] Extension signature verification result for ms-ceintl.vscode-language-pack-zh-hans: Success. Executed: true. Duration: 3010ms.
+2024-10-16 18:32:35.363 [info] Extracted extension to file:///home/zyh/.vscode-server/extensions/ms-ceintl.vscode-language-pack-zh-hans-1.94.2024101609: ms-ceintl.vscode-language-pack-zh-hans
+2024-10-16 18:32:35.366 [info] Renamed to /home/zyh/.vscode-server/extensions/ms-ceintl.vscode-language-pack-zh-hans-1.94.2024101609
+2024-10-16 18:32:35.374 [info] Marked extension as uninstalled ms-ceintl.vscode-language-pack-zh-hans-1.94.2024100909
+2024-10-16 18:32:35.376 [info] Adding language packs from the extension ms-ceintl.vscode-language-pack-zh-hans
+2024-10-16 18:32:35.392 [info] Extension installed successfully: ms-ceintl.vscode-language-pack-zh-hans file:///home/zyh/.vscode-server/extensions/extensions.json
+2024-10-16 18:32:35.778 [info] Downloaded extension to file:///home/zyh/.vscode-server/data/CachedExtensionVSIXs/c437184b-9d67-4661-8ba7-bc837e07fc7d
+2024-10-16 18:32:35.780 [info] Installing extension: ms-ceintl.vscode-language-pack-zh-hans {"productVersion":{"version":"1.94.2","date":"2024-10-09T16:08:44.566Z"},"pinned":false,"operation":3,"isApplicationScoped":true,"donotVerifySignature":false,"donotIncludePackAndDependencies":true,"keepExisting":true,"installOnlyNewlyAddedFromExtensionPack":false,"profileLocation":{"$mid":1,"fsPath":"/home/zyh/.vscode-server/extensions/extensions.json","external":"file:///home/zyh/.vscode-server/extensions/extensions.json","path":"/home/zyh/.vscode-server/extensions/extensions.json","scheme":"file"}}
+2024-10-16 18:32:35.781 [info] Installing the extension without checking dependencies and pack ms-ceintl.vscode-language-pack-zh-hans
+2024-10-16 18:32:35.785 [info] Deleted existing extension from disk ms-ceintl.vscode-language-pack-zh-hans /home/zyh/.vscode-server/extensions/ms-ceintl.vscode-language-pack-zh-hans-1.94.2024101609
+2024-10-16 18:32:35.866 [info] Extracted extension to file:///home/zyh/.vscode-server/extensions/ms-ceintl.vscode-language-pack-zh-hans-1.94.2024101609: ms-ceintl.vscode-language-pack-zh-hans
+2024-10-16 18:32:35.870 [info] Renamed to /home/zyh/.vscode-server/extensions/ms-ceintl.vscode-language-pack-zh-hans-1.94.2024101609
+2024-10-16 18:32:35.877 [info] Adding language packs from the extension ms-ceintl.vscode-language-pack-zh-hans
+2024-10-16 18:32:35.888 [info] Extension installed successfully: ms-ceintl.vscode-language-pack-zh-hans file:///home/zyh/.vscode-server/extensions/extensions.json
+2024-10-16 20:17:21.101 [info] [127.0.0.1][0b90231c][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-10-16 20:17:21.240 [info] [127.0.0.1][ea48a730][ExtensionHostConnection] <489> Extension Host Process exited with code: 0, signal: null.

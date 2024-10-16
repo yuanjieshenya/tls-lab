@@ -1,0 +1,13 @@
+2024-10-16 20:41:04.282 [info] 
+
+
+
+
+2024-10-16 20:41:04.282 [info] Extension host agent started.
+2024-10-16 20:41:04.463 [info] [127.0.0.1][cd8db2fc][ManagementConnection] New connection established.
+2024-10-16 20:41:04.701 [info] [127.0.0.1][6165d846][ExtensionHostConnection] New connection established.
+2024-10-16 20:41:04.791 [info] [127.0.0.1][6165d846][ExtensionHostConnection] <10678> Launched Extension Host Process.
+2024-10-16 20:41:04.859 [info] [127.0.0.1][6165d846][ExtensionHostConnection] <10678><stderr> Error reading NLS messages file /home/zyh/.vscode-server/data/clp/2b876d626577b55e2d1c0996b633a467.zh-cn/384ff7382de624fb94dbaf6da11977bba1ecd427/nls.messages.json: Error: ENOENT: no such file or directory, open '/home/zyh/.vscode-server/data/clp/2b876d626577b55e2d1c0996b633a467.zh-cn/384ff7382de624fb94dbaf6da11977bba1ecd427/nls.messages.json'
+
+2024-10-16 20:48:41.420 [info] [127.0.0.1][cd8db2fc][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-10-16 20:48:41.504 [info] [127.0.0.1][6165d846][ExtensionHostConnection] <10678> Extension Host Process exited with code: 0, signal: null.

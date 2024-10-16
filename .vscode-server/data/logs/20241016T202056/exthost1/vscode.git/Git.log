@@ -1,0 +1,115 @@
+2024-10-16 20:20:59.861 [info] [main] 日志级别: Info
+2024-10-16 20:20:59.861 [info] [main] 正在验证在以下位置找到的 git: "git"
+2024-10-16 20:20:59.861 [info] [main] 使用来自 "git" 的 git "2.34.1"
+2024-10-16 20:20:59.862 [info] [Model][doInitialScan] Initial repository scan started
+2024-10-16 20:20:59.862 [info] > git rev-parse --show-toplevel [6ms]
+2024-10-16 20:20:59.862 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2024-10-16 20:20:59.873 [info] [Model][openRepository] Opened repository: /home/zyh
+2024-10-16 20:20:59.891 [info] > git rev-parse --show-toplevel [10ms]
+2024-10-16 20:20:59.892 [info] > git config --get commit.template [14ms]
+2024-10-16 20:20:59.907 [info] [Git][getRemotes] No remotes found in the git config file
+2024-10-16 20:20:59.908 [info] > git rev-parse --git-dir --git-common-dir [11ms]
+2024-10-16 20:20:59.911 [info] [Model][openRepository] Opened repository: /home/zyh/OSLabs
+2024-10-16 20:20:59.919 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [13ms]
+2024-10-16 20:20:59.920 [warning] [Git][getBranch] No such branch: master
+2024-10-16 20:20:59.932 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2024-10-16 20:20:59.933 [info] > git rev-parse --show-toplevel [14ms]
+2024-10-16 20:20:59.934 [info] > git config --get commit.template [18ms]
+2024-10-16 20:20:59.947 [info] > git status -z -uall [24ms]
+2024-10-16 20:20:59.948 [info] > git rev-parse --show-toplevel [10ms]
+2024-10-16 20:21:00.232 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [237ms]
+2024-10-16 20:21:00.232 [warning] [Git][getBranch] No such branch: master
+2024-10-16 20:21:00.232 [error] [GitHistoryProvider][resolveHEADMergeBase] Failed to resolve merge base for master: Error: No such branch: master.
+2024-10-16 20:21:00.233 [info] > git rev-parse --show-toplevel [282ms]
+2024-10-16 20:21:00.234 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/thread refs/remotes/thread [288ms]
+2024-10-16 20:21:00.249 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/zyh/OSLabs/.git/refs/remotes/origin/thread'
+2024-10-16 20:21:00.254 [info] > git config --get commit.template [62ms]
+2024-10-16 20:21:00.256 [info] > git rev-parse refs/remotes/origin/thread [7ms]
+2024-10-16 20:21:00.266 [info] > git rev-parse --show-toplevel [21ms]
+2024-10-16 20:21:00.270 [info] [Git][getRemotes] No remotes found in the git config file
+2024-10-16 20:21:00.274 [info] > git status -z -uall [14ms]
+2024-10-16 20:21:00.276 [info] > git rev-parse --show-toplevel [2ms]
+2024-10-16 20:21:00.276 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [6ms]
+2024-10-16 20:21:00.276 [warning] [Git][getBranch] No such branch: master
+2024-10-16 20:21:00.285 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [19ms]
+2024-10-16 20:21:00.308 [info] > git status -z -uall [29ms]
+2024-10-16 20:21:00.308 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/thread refs/remotes/thread [14ms]
+2024-10-16 20:21:00.314 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [32ms]
+2024-10-16 20:21:00.322 [info] > git config --local branch.thread.vscode-merge-base [8ms]
+2024-10-16 20:21:00.329 [info] > git config --get commit.template [23ms]
+2024-10-16 20:21:00.329 [info] > git rev-parse --show-toplevel [28ms]
+2024-10-16 20:21:00.371 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/thread refs/remotes/origin/thread [43ms]
+2024-10-16 20:21:00.387 [info] > git rev-parse --git-dir --git-common-dir [20ms]
+2024-10-16 20:21:00.391 [info] [Model][openRepository] Opened repository: /home/zyh/code
+2024-10-16 20:21:00.394 [info] [Model][doInitialScan] Initial repository scan completed - repositories (3), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-10-16 20:21:00.411 [info] > git show --textconv :user/uthread_priority.c [14ms]
+2024-10-16 20:21:00.411 [info] > git ls-files --stage -- /home/zyh/OSLabs/user/uthread_priority.c [11ms]
+2024-10-16 20:21:00.412 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/thread refs/remotes/thread [30ms]
+2024-10-16 20:21:00.413 [info] > git merge-base refs/heads/thread refs/remotes/origin/thread [35ms]
+2024-10-16 20:21:00.424 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/zyh/OSLabs/.git/refs/remotes/origin/thread'
+2024-10-16 20:21:00.425 [info] > git config --get commit.template [16ms]
+2024-10-16 20:21:00.427 [info] > git rev-parse refs/remotes/origin/thread [3ms]
+2024-10-16 20:21:00.436 [info] > git diff --name-status -z --diff-filter=ADMR ddee41d96a53d67a4b4225aafb6b675bed9d3e7c...refs/remotes/origin/thread [19ms]
+2024-10-16 20:21:00.441 [info] > git status -z -uall [9ms]
+2024-10-16 20:21:00.441 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [6ms]
+2024-10-16 20:21:00.718 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [278ms]
+2024-10-16 20:21:00.730 [info] > git check-ignore -v -z --stdin [6ms]
+2024-10-16 20:21:00.732 [info] > git check-ignore -v -z --stdin [5ms]
+2024-10-16 20:21:00.742 [info] > git status -z -uall [5ms]
+2024-10-16 20:21:00.742 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2024-10-16 20:21:00.756 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [7ms]
+2024-10-16 20:21:00.760 [info] > git config --get commit.template [6ms]
+2024-10-16 20:21:00.761 [info] > git config --local branch.main.vscode-merge-base [3ms]
+2024-10-16 20:21:00.761 [warning] [Git][config] git config failed: Failed to execute git
+2024-10-16 20:21:00.825 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [58ms]
+2024-10-16 20:21:00.825 [info] > git reflog main --grep-reflog=branch: Created from *. [60ms]
+2024-10-16 20:21:00.836 [info] > git status -z -uall [5ms]
+2024-10-16 20:21:00.837 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [8ms]
+2024-10-16 20:21:00.837 [info] fatal: ref refs/remotes/origin/HEAD is not a symbolic ref
+2024-10-16 20:21:00.837 [warning] [Repository][getDefaultBranch] Failed to get default branch details: Failed to execute git.
+2024-10-16 20:21:00.843 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [8ms]
+2024-10-16 20:21:00.853 [info] > git merge-base refs/heads/main refs/remotes/origin/main [4ms]
+2024-10-16 20:21:00.857 [info] > git merge-base refs/heads/main refs/remotes/origin/main [16ms]
+2024-10-16 20:21:00.864 [info] > git diff --name-status -z --diff-filter=ADMR 4e96933cf40805990bda0190a2532674429304f9...refs/remotes/origin/main [7ms]
+2024-10-16 20:21:00.865 [info] > git diff --name-status -z --diff-filter=ADMR 4e96933cf40805990bda0190a2532674429304f9...refs/remotes/origin/main [3ms]
+2024-10-16 20:21:02.728 [info] > git check-ignore -v -z --stdin [8ms]
+2024-10-16 20:21:02.729 [info] > git check-ignore -v -z --stdin [6ms]
+2024-10-16 20:21:02.729 [info] > git check-ignore -v -z --stdin [3ms]
+2024-10-16 20:21:03.043 [info] [Git][getRemotes] No remotes found in the git config file
+2024-10-16 20:21:03.047 [info] > git config --get commit.template [5ms]
+2024-10-16 20:21:03.048 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-10-16 20:21:03.048 [warning] [Git][getBranch] No such branch: master
+2024-10-16 20:21:03.056 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2024-10-16 20:21:03.064 [info] > git status -z -uall [13ms]
+2024-10-16 20:21:05.723 [info] > git check-ignore -v -z --stdin [4ms]
+2024-10-16 20:21:05.724 [info] > git check-ignore -v -z --stdin [2ms]
+2024-10-16 20:21:08.096 [info] [Git][getRemotes] No remotes found in the git config file
+2024-10-16 20:21:08.098 [info] > git config --get commit.template [6ms]
+2024-10-16 20:21:08.098 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-10-16 20:21:08.098 [warning] [Git][getBranch] No such branch: master
+2024-10-16 20:21:08.109 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2024-10-16 20:21:08.118 [info] > git status -z -uall [17ms]
+2024-10-16 20:21:13.041 [info] > git config --get commit.template [4ms]
+2024-10-16 20:21:13.041 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/thread refs/remotes/thread [1ms]
+2024-10-16 20:21:13.044 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/zyh/OSLabs/.git/refs/remotes/origin/thread'
+2024-10-16 20:21:13.045 [info] > git rev-parse refs/remotes/origin/thread [1ms]
+2024-10-16 20:21:13.050 [info] > git status -z -uall [3ms]
+2024-10-16 20:21:13.051 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2024-10-16 20:21:13.144 [info] [Git][getRemotes] No remotes found in the git config file
+2024-10-16 20:21:13.144 [info] > git config --get commit.template [4ms]
+2024-10-16 20:21:13.145 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [2ms]
+2024-10-16 20:21:13.145 [warning] [Git][getBranch] No such branch: master
+2024-10-16 20:21:13.152 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2024-10-16 20:21:13.159 [info] > git status -z -uall [12ms]
+2024-10-16 20:21:18.178 [info] [Git][getRemotes] No remotes found in the git config file
+2024-10-16 20:21:18.181 [info] > git config --get commit.template [3ms]
+2024-10-16 20:21:18.181 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2024-10-16 20:21:18.181 [warning] [Git][getBranch] No such branch: master
+2024-10-16 20:21:18.187 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2024-10-16 20:21:18.195 [info] > git status -z -uall [11ms]
+2024-10-16 20:21:24.045 [info] [Git][getRemotes] No remotes found in the git config file
+2024-10-16 20:21:24.046 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [4ms]
+2024-10-16 20:21:24.046 [warning] [Git][getBranch] No such branch: master
+2024-10-16 20:21:24.046 [info] > git config --get commit.template [7ms]
+2024-10-16 20:21:24.052 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2024-10-16 20:21:24.060 [info] > git status -z -uall [12ms]

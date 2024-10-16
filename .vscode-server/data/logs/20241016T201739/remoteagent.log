@@ -1,0 +1,12 @@
+2024-10-16 20:17:39.567 [info] 
+
+
+
+
+2024-10-16 20:17:39.567 [info] Extension host agent started.
+2024-10-16 20:17:39.612 [info] Deleted uninstalled extension from disk ms-ceintl.vscode-language-pack-zh-hans /home/zyh/.vscode-server/extensions/ms-ceintl.vscode-language-pack-zh-hans-1.94.2024100909
+2024-10-16 20:17:39.711 [info] [127.0.0.1][c08389de][ManagementConnection] New connection established.
+2024-10-16 20:17:39.904 [info] [127.0.0.1][b0f0a97b][ExtensionHostConnection] New connection established.
+2024-10-16 20:17:40.013 [info] [127.0.0.1][b0f0a97b][ExtensionHostConnection] <50493> Launched Extension Host Process.
+2024-10-16 20:18:48.482 [info] [127.0.0.1][c08389de][ManagementConnection] The client has disconnected gracefully, so the connection will be disposed.
+2024-10-16 20:18:48.561 [info] [127.0.0.1][b0f0a97b][ExtensionHostConnection] <50493> Extension Host Process exited with code: 0, signal: null.

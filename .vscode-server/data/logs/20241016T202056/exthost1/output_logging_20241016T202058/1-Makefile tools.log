@@ -1,0 +1,26 @@
+未在工作区状态中定义当前配置。假定为 "Default"。
+工作区状态中未定义目标。假定 "Default"。
+正在删除 /home/zyh/.vscode-server/data/User/workspaceStorage/868cafb2ac1f358e4112c7cce70dc2d6/ms-vscode.makefile-tools 处的各种扩展输出文件
+日志记录级别: Normal
+配置缓存于 /home/zyh/.vscode-server/data/User/workspaceStorage/868cafb2ac1f358e4112c7cce70dc2d6/ms-vscode.makefile-tools/configurationCache.log
+设置文件中未定义 makefile 的路径。
+未在设置文件中定义 makefile 的文件夹路径。
+始终预配置: false
+始终配置后: false
+干运行交换机: '--always-make', '--keep-going', '--print-directory'
+未在工作区状态下设置当前启动配置。
+默认启动配置: MIMode = undefined,
+                miDebuggerPath = undefined,
+                stopAtEntry = undefined,
+                symbolSearchPath = undefined
+打开时配置: null
+在编辑时配置: true
+在命令后配置: true
+仅 .PHONY 目标: false
+在生成或配置前保存: true
+在启动前生成: true
+在生成前清除输出: true
+忽略目录命令: true
+compile_commands.json path: null
+已推导出配置 "Default" 的命令 'make '
+The makefile entry point was not found. Make sure it exists at the location defined by makefile.makefilePath, makefile.configurations[].makefilePath, makefile makefile.makeDirectory, makefile.configurations[].makeDirectory or in the root of the workspace.
